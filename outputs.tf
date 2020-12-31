@@ -18,7 +18,6 @@ output "cluster_export_kubeconfig_command" {
   value = module.rke-cluster.export_kubeconfig_command
 }
 
-
 //output "kubeconfig" {
 //  value = file(var.cluster_kubeconfig_path)
 //}
